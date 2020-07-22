@@ -1,15 +1,19 @@
 {
   "name": "stringify-ranges",
   "version": "1.0.0",
-  "description": "",
+  "description": "Highly likely asynchronous function that groups an array by ranges and returns the result as a string",
   "main": "index.js",
   "scripts": {
     "test":  "mocha index.test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["group by range"],
+  "author": "p-ab <pasha.abramov.92@gmail.com> (https://github.com/p-ab)",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^8.0.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/p-ab/stringify-ranges"
   }
 }
